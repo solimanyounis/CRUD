@@ -1,0 +1,52 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\all.min.css">
+    <link rel="stylesheet" href="css\index_style.css">
+
+   
+
+</head>
+
+
+
+<body>
+    <div class="container py-4">
+    <p class="text-primary py-2">product Name</p>
+    <input id="pname" class="form-control"  type="text">
+    <p class="text-primary py-2">product price</p>
+    <input id="pprice" class="form-control"  type="text">
+    <p class="text-primary py-2">product category</p>
+    <input id="pcateg" class="form-control"  type="text">
+    <p class="text-primary py-2">product Description</p>
+    <input id="pdesc" class="form-control"  type="text">
+    <button id="addo"   onclick=" addProduct()" class="bg-primary text-white p-2 rounded my-3 border-primary">ADD product    </button>
+    <button id="upd" onclick="update()"   class="bg-warning text-white p-2 rounded my-3 border-warning ">update product    </button>
+
+        <input id="searcho" onkeyup="search()" type="text" class="form-control my-4 container w-50 m-auto mb-4" placeholder="search product">
+    
+    </div>
+
+
+    <table class="table container">
+        <thead>
+            <th  class="text-primary">Name </th>
+            <th  class="text-primary">price </th>
+            <th  class="text-primary">Category </th>
+            <th  class="text-primary">Description </th>
+            <th  class="text-primary">Delete </th>
+            <th  class="text-primary">upDate </th>
+
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+    <script src ="js/all.min.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js\soliman.js"></script>
+</body>
+</html>

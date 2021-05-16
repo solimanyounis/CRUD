@@ -1,0 +1,239 @@
+#home{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    height: 100vh;
+    
+    
+    }
+    .navbar{
+        background-color: black;
+        opacity: 0.7;
+    }
+    #txtblock{
+    margin-top: 3rem;
+    }
+    
+    #about{
+  
+        
+        background-color: #f5f5f5e1;
+    }
+    #space{
+        color: transparent ;
+    }
+    #services{
+    
+    background-color: #F5F5F4;
+    
+    }
+    #servicesson{
+        
+    padding-top: 4rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    }
+    #servicesson i{
+    
+        color: blue;
+    position: static;
+    transition: 1s;
+    }
+    .card{
+    
+        border-radius: 8%;
+    
+    }
+    #servicesson i:hover {
+    
+    color: turquoise;
+    
+    }
+    
+    .partition{
+    
+    height: 70vh;
+    background-image: url(../images/post-3-7904561.jpeg);
+    background-attachment: fixed;
+    }
+    .part{
+    
+        height: inherit;
+    
+    background-color: #0078ff;
+    width: 100%;
+    opacity: 0.6;
+    
+    
+    }
+    .part i{
+    
+    font-size: 6rem;
+    color: white;
+    }
+    .part p,h6{
+    
+    
+        color: white;
+        font-size: x-large;
+    
+    }
+    #portfolio{
+    
+    
+    background-color:#f5f5f5 ;
+    
+    
+    }
+    .line-mf {
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        margin: 0 auto;
+    }
+    .port img{
+        transition: 1s;
+    }
+    
+     .port img:hover {
+        
+    
+    transform: scale(1.1);
+    }
+    .port{
+    
+    border-width: 0px;
+        border-radius: 0%;
+    }
+    .port i{
+    
+    font-size: 3rem;
+    color: blue;
+    position: absolute;
+    right: 19px;
+    bottom: 26px;
+    }
+    #work{
+    
+    
+    height: 110vh;
+    background-image:url(../images/overlay-bg.jpg) ;
+    background-attachment: fixed;
+     color: white;
+    }
+    .carousel-inner{
+       
+    
+        background-color: blue;
+        opacity: 0.6;
+    }
+    .carousel-inner img{
+    width: 10%;
+    opacity: 1  !important;
+    }
+    .blog{
+    
+     background-color: #f5f5f5e1;
+    
+    }
+    .soli{
+        width: 120px;
+    position: absolute;
+    left: 28%;
+    bottom: 49%;
+        border-radius: 5%;
+        padding: 3px;
+    }
+    
+    .x{
+    
+    border: 2px black solid;
+        position: relative;
+    }
+    #xs{
+    
+    width: 12%;
+    
+    }
+    
+    .small p{
+    font-size: 15px;
+        transition: 1s;
+    }
+    .small p:hover{
+    
+    
+        color: cornflowerblue;
+    }
+    .small i{
+    font-size: 1rem;
+    
+    }
+    .mo{
+    
+    width: 90% !important;
+    
+    }
+    .texto a{
+    text-decoration: none;
+    
+    }
+    .last{
+    
+        
+        background-image: url(../images/overlay-bg.jpg);
+    
+    
+    }
+    .last p{
+    
+    color: #4e4e4e;
+    font-weight: 300;
+    font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .layer
+    {
+        background-color: rgba(0, 120, 255,0.8);
+        
+        height: 130vh !important; ;
+    }
+    .noy{
+    width: 120px;
+    transform:translatex(-174px);
+    
+    
+    }
+    .iconss i{
+    
+    font-size: 2rem;
+    
+    }
+    .last i{
+    
+        color: blue;
+    }
+    #lastp{
+    
+    color: white;
+    
+    }
+    
